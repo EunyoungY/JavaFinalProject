@@ -214,7 +214,8 @@ public class ZipReader {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch(java.lang.IllegalStateException e) { 
+		} catch(java.lang.IllegalStateException e) {
+			System.out.println("ERROR make error.xls");
 			e.printStackTrace();
 		}
 	}
